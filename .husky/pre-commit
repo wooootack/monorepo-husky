@@ -1,9 +1,12 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+cd `pwd`
+
 cd back
 npm run build
+cd ..
 
-
-cd ../front
-npm run build
+cd front
+npm run
+cd ..

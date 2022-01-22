@@ -1,0 +1,23 @@
+{
+  "name": "monorepo-husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "husky": "^7.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooootack/monorepo-husky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooootack/monorepo-husky/issues"
+  },
+  "homepage": "https://github.com/wooootack/monorepo-husky#readme"
+}

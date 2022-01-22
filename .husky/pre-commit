@@ -1,4 +1,9 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
+cd back
+npm run build
+
+
+cd ../front
 npm run build
